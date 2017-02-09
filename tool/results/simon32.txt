@@ -1,0 +1,804 @@
+-------------------------------------
+Round 1
+-------------------------------------
+Sorting 1 elements w.r.t. probability
+Storing 1 differences
+1 [6] [] Pr: 2^{-0} [] [6]
+sqrt(Sum Pr^2): 2^{0}
+-------------------------------------
+Round 2
+-------------------------------------
+Sorting 4 elements w.r.t. probability
+Storing 4 differences
+1 [8] [6] Pr: 2^{-2} [6] []
+2 [7, 8, 14] [6] Pr: 2^{-2} [6] []
+3 [8, 14] [6] Pr: 2^{-2} [6] []
+sqrt(Sum Pr^2): 2^{-1}
+-------------------------------------
+Round 3
+-------------------------------------
+Sorting 68 elements w.r.t. probability
+Storing 68 differences
+1 [6, 9, 10] [8] Pr: 2^{-4} [8] [6]
+2 [6, 10] [8] Pr: 2^{-4} [8] [6]
+3 [0, 6, 10] [8] Pr: 2^{-4} [8] [6]
+sqrt(Sum Pr^2): 2^{-2.65}
+-------------------------------------
+Round 4
+-------------------------------------
+Sorting 3448 elements w.r.t. probability
+Storing 3448 differences
+1 [2, 7, 11, 12] [6, 10] Pr: 2^{-7.3}  4 paths [6, 10] [8]
+2 [7, 12] [6, 10] Pr: 2^{-7.3}  4 paths [6, 10] [8]
+3 [2, 12, 14] [6, 10] Pr: 2^{-7.3}  4 paths [6, 10] [8]
+sqrt(Sum Pr^2): 2^{-4.774}
+-------------------------------------
+Round 5
+-------------------------------------
+Testing 1024/3448 [0, 1, 2, 10, 12, 14] [0, 9, 10, 15] Pr: 2^{-12.415}  4 paths [0, 9, 10, 15] [8, 14] #elements: 4096 
+Sorting 4600 elements w.r.t. probability
+Storing 4600 differences
+Sorting 4736 elements w.r.t. probability
+Storing 4736 differences
+Testing 2048/3448 [0, 1, 9, 10, 12] [6, 8, 9, 10, 15] Pr: 2^{-14}  4 paths [6, 8, 9, 10, 15] [7, 8] #elements: 1024 
+Sorting 4740 elements w.r.t. probability
+Storing 4740 differences
+Testing 3072/3448 [0, 1, 8, 10, 12] [0, 6, 8, 9, 10] Pr: 2^{-15}  2 paths [0, 6, 8, 9, 10] [7, 8] #elements: 1024 
+Sorting 4744 elements w.r.t. probability
+Storing 4744 differences
+Sorting 4680 elements w.r.t. probability
+Storing 4680 differences
+1 [6, 10, 14] [12] Pr: 2^{-9.3}  4 paths [12] [6, 10]
+2 [4, 6, 10, 13, 14] [12] Pr: 2^{-9.3}  4 paths [12] [6, 10]
+3 [6, 10, 13, 14] [12] Pr: 2^{-9.3}  4 paths [12] [6, 10]
+sqrt(Sum Pr^2): 2^{-7.394}
+-------------------------------------
+Round 6
+-------------------------------------
+Testing 1024/4680 [0, 2, 6, 9, 10, 12, 14] [10, 12] Pr: 2^{-14.3}  8 paths [10, 12] [0, 6, 9, 10] #elements: 16384 
+Sorting 32788 elements w.r.t. probability
+Storing 32768 differences
+Sorting 34868 elements w.r.t. probability
+Storing 32768 differences
+Testing 2048/4680 [0, 3, 6, 14] [8, 11, 12] Pr: 2^{-14.715}  5 paths [8, 11, 12] [0, 6, 10] #elements: 256 
+Sorting 34000 elements w.r.t. probability
+Storing 32768 differences
+Testing 3072/4680 [3, 4, 6, 14, 15] [2, 8, 12, 14] Pr: 2^{-16} [2, 8, 12, 14] [10] #elements: 1024 
+Sorting 36872 elements w.r.t. probability
+Storing 32768 differences
+Testing 4096/4680 [0, 2, 3, 6, 9, 10, 11, 12, 13, 14] [2, 10, 12] Pr: 2^{-16.3}  8 paths [2, 10, 12] [0, 6, 9, 10] #elements: 262144 
+Sorting 33668 elements w.r.t. probability
+Storing 32768 differences
+Sorting 31347 elements w.r.t. probability
+Storing 31347 differences
+1 [0, 6, 8, 14, 15] [6, 10, 14] Pr: 2^{-14.367}  11 paths [6, 10, 14] [12]
+2 [0, 8, 11, 15] [6, 10, 14] Pr: 2^{-14.367}  11 paths [6, 10, 14] [12]
+3 [0, 2, 6, 7, 8, 14, 15] [6, 10, 14] Pr: 2^{-14.367}  11 paths [6, 10, 14] [12]
+sqrt(Sum Pr^2): 2^{-10.613}
+-------------------------------------
+Round 7
+-------------------------------------
+Testing 1024/31347 [0, 5, 6, 7, 12] [6, 13, 14] Pr: 2^{-16.701}  10 paths [6, 13, 14] [8, 12, 14] #elements: 1024 
+Sorting 145631 elements w.r.t. probability
+Storing 32768 differences
+Sorting 53439 elements w.r.t. probability
+Storing 32768 differences
+Testing 2048/31347 [0, 5, 6, 14, 15] [4, 6, 14] Pr: 2^{-17.776}  7 paths [4, 6, 14] [8, 12, 14] #elements: 1024 
+Sorting 51879 elements w.r.t. probability
+Storing 32768 differences
+Testing 3072/31347 [0, 1, 2, 14, 15] [0, 4, 10, 14] Pr: 2^{-18.715}  6 paths [0, 4, 10, 14] [11, 12, 14] #elements: 1024 
+Sorting 35092 elements w.r.t. probability
+Storing 32768 differences
+Testing 4096/31347 [0, 2, 4, 5, 8, 12] [3, 4, 6, 13, 14] Pr: 2^{-18.715}  12 paths [3, 4, 6, 13, 14] [2, 11, 12] #elements: 4096 
+Sorting 35156 elements w.r.t. probability
+Storing 32768 differences
+Testing 5120/31347 [0, 2, 6, 11, 14, 15] [9, 10, 14] Pr: 2^{-18.81}  11 paths [9, 10, 14] [12, 14] #elements: 4096 
+Sorting 33856 elements w.r.t. probability
+Storing 32768 differences
+Testing 6144/31347 [0, 2, 4, 5, 7, 8, 13, 14, 15] [3, 6, 10, 12, 14] Pr: 2^{-19.3}  7 paths [3, 6, 10, 12, 14] [11, 12] #elements: 262144 
+Sorting 34628 elements w.r.t. probability
+Storing 32768 differences
+Testing 7168/31347 [0, 1, 5, 6, 7, 11] [0, 6, 10, 13, 14] Pr: 2^{-19.3}  7 paths [0, 6, 10, 13, 14] [12] #elements: 4096 
+Sorting 34588 elements w.r.t. probability
+Storing 32768 differences
+Testing 8192/31347 [0, 2, 5, 6, 7, 8, 12] [3, 6, 12, 14] Pr: 2^{-19.3}  6 paths [3, 6, 12, 14] [2, 11, 12] #elements: 16384 
+Sorting 34544 elements w.r.t. probability
+Storing 32768 differences
+Testing 9216/31347 [0, 2, 5, 6, 11, 14, 15] [0, 4, 9, 14] Pr: 2^{-19.84}  7 paths [0, 4, 9, 14] [8, 12, 14] #elements: 16384 
+Sorting 34804 elements w.r.t. probability
+Storing 32768 differences
+Testing 10240/31347 [0, 1, 8, 12, 15] [4, 13, 14, 15] Pr: 2^{-19.84}  7 paths [4, 13, 14, 15] [8, 12, 14] #elements: 1024 
+Sorting 35484 elements w.r.t. probability
+Storing 32768 differences
+Testing 11264/31347 [0, 1, 2, 5, 7, 11, 14, 15] [4, 10, 14, 15] Pr: 2^{-20.272}  7 paths [4, 10, 14, 15] [12, 14] #elements: 65536 
+Sorting 32996 elements w.r.t. probability
+Storing 32768 differences
+Testing 12288/31347 [0, 1, 15] [0, 4, 10, 13, 14] Pr: 2^{-20.3}  5 paths [0, 4, 10, 13, 14] [12, 14] #elements: 64 
+Sorting 32932 elements w.r.t. probability
+Storing 32768 differences
+Testing 13312/31347 [0, 6, 12, 14] [0, 4, 6, 10, 14] Pr: 2^{-20.3}  5 paths [0, 4, 6, 10, 14] [12] #elements: 256 
+Sorting 32920 elements w.r.t. probability
+Storing 32768 differences
+Testing 14336/31347 [0, 7, 8, 14] [0, 6, 10, 14, 15] Pr: 2^{-20.3}  5 paths [0, 6, 10, 14, 15] [12, 14] #elements: 256 
+Sorting 33005 elements w.r.t. probability
+Storing 32768 differences
+Testing 15360/31347 [0, 2, 11] [0, 6, 10, 14, 15] Pr: 2^{-20.3}  5 paths [0, 6, 10, 14, 15] [12, 14] #elements: 64 
+Sorting 33016 elements w.r.t. probability
+Storing 32768 differences
+Testing 16384/31347 [0, 2, 5, 6, 8, 12] [0, 4, 6, 10, 14] Pr: 2^{-20.3}  5 paths [0, 4, 6, 10, 14] [12] #elements: 4096 
+Sorting 33044 elements w.r.t. probability
+Storing 32768 differences
+Sorting 32924 elements w.r.t. probability
+Storing 32768 differences
+Testing 17408/31347 [1, 6, 11, 14] [9, 10, 14, 15] Pr: 2^{-20.574}  11 paths [9, 10, 14, 15] [12, 14] #elements: 256 
+Sorting 32992 elements w.r.t. probability
+Storing 32768 differences
+Testing 18432/31347 [0, 6, 7, 12, 14] [6, 9, 14] Pr: 2^{-20.715}  5 paths [6, 9, 14] [8, 11, 12] #elements: 1024 
+Sorting 32892 elements w.r.t. probability
+Storing 32768 differences
+Testing 19456/31347 [0, 2, 5, 6, 7, 10, 11, 12] [0, 6, 9, 13, 14] Pr: 2^{-20.84}  9 paths [0, 6, 9, 13, 14] [8, 12, 14] #elements: 65536 
+Sorting 32832 elements w.r.t. probability
+Storing 32768 differences
+Testing 20480/31347 [0, 2, 8, 12] [0, 6, 13, 14, 15] Pr: 2^{-20.84}  9 paths [0, 6, 13, 14, 15] [8, 12, 14] #elements: 256 
+Sorting 32784 elements w.r.t. probability
+Storing 32768 differences
+Testing 21504/31347 [0, 2, 8, 10, 14, 15] [6, 8, 10, 14] Pr: 2^{-21.046}  5 paths [6, 8, 10, 14] [7, 12] #elements: 4096 
+Sorting 32824 elements w.r.t. probability
+Storing 32768 differences
+Testing 22528/31347 [0, 1, 2, 5, 7, 11, 15] [4, 10, 13, 14, 15] Pr: 2^{-21.272}  8 paths [4, 10, 13, 14, 15] [12, 14] #elements: 16384 
+Sorting 32916 elements w.r.t. probability
+Storing 32768 differences
+Testing 23552/31347 [2, 5, 8, 12, 14, 15] [0, 4, 10, 14, 15] Pr: 2^{-21.3}  4 paths [0, 4, 10, 14, 15] [12, 14] #elements: 4096 
+Sorting 32972 elements w.r.t. probability
+Storing 32768 differences
+Testing 24576/31347 [1, 2, 6, 8, 9, 10, 11, 12, 14] [6, 8, 9, 14] Pr: 2^{-21.3}  4 paths [6, 8, 9, 14] [2, 7, 12] #elements: 262144 
+Sorting 32956 elements w.r.t. probability
+Storing 32768 differences
+Testing 25600/31347 [0, 2, 4, 5, 6, 7, 8, 11, 12, 15] [4, 6, 10, 12, 14] Pr: 2^{-21.3}  4 paths [4, 6, 10, 12, 14] [11, 12] #elements: 262144 
+Sorting 33028 elements w.r.t. probability
+Storing 32768 differences
+Testing 26624/31347 [0, 11, 15] [0, 10, 12, 14] Pr: 2^{-21.3}  4 paths [0, 10, 12, 14] [11, 12, 14] #elements: 64 
+Sorting 32937 elements w.r.t. probability
+Storing 32768 differences
+Testing 27648/31347 [0, 5, 8, 14] [0, 4, 10, 14, 15] Pr: 2^{-21.3}  4 paths [0, 4, 10, 14, 15] [12, 14] #elements: 256 
+Sorting 33028 elements w.r.t. probability
+Storing 32768 differences
+Testing 28672/31347 [0, 5, 7, 8, 11, 15] [4, 6, 10, 12, 14] Pr: 2^{-21.3}  4 paths [4, 6, 10, 12, 14] [11, 12] #elements: 4096 
+Sorting 32980 elements w.r.t. probability
+Storing 32768 differences
+Sorting 32916 elements w.r.t. probability
+Storing 32768 differences
+Sorting 31403 elements w.r.t. probability
+Storing 31403 differences
+1 [1, 2, 6, 9, 14] [0, 8] Pr: 2^{-18.092}  13 paths [0, 8] [6, 10, 14]
+2 [2, 6, 14] [0, 8] Pr: 2^{-18.092}  13 paths [0, 8] [6, 10, 14]
+3 [0, 2, 6, 14] [0, 8] Pr: 2^{-18.092}  13 paths [0, 8] [6, 10, 14]
+sqrt(Sum Pr^2): 2^{-14.446}
+-------------------------------------
+Round 8
+-------------------------------------
+Testing 1024/31403 [1, 2, 6, 8, 14] [0, 7, 8, 15] Pr: 2^{-20.214}  15 paths [0, 7, 8, 15] [6, 10, 14] #elements: 1024 
+Sorting 58938 elements w.r.t. probability
+Storing 32768 differences
+Sorting 46128 elements w.r.t. probability
+Storing 32768 differences
+Testing 2048/31403 [1, 2, 6, 8, 9, 13, 14] [0, 6, 8] Pr: 2^{-21.43}  15 paths [0, 6, 8] [6, 10, 13, 14] #elements: 16384 
+Sorting 43439 elements w.r.t. probability
+Storing 32768 differences
+Testing 3072/31403 [1, 3, 6, 14] [0, 1, 8] Pr: 2^{-21.618}  14 paths [0, 1, 8] [6, 9, 10, 14] #elements: 256 
+Sorting 44048 elements w.r.t. probability
+Storing 32768 differences
+Testing 4096/31403 [2, 4, 6, 9, 13] [0, 6, 7, 12] Pr: 2^{-22.001}  12 paths [0, 6, 7, 12] [6, 14] #elements: 1024 
+Sorting 37560 elements w.r.t. probability
+Storing 32768 differences
+Testing 5120/31403 [2, 6, 10, 15] [0, 6, 14, 15] Pr: 2^{-22.139}  11 paths [0, 6, 14, 15] [10, 14] #elements: 256 
+Sorting 34520 elements w.r.t. probability
+Storing 32768 differences
+Testing 6144/31403 [1, 2, 8, 12, 13, 14] [0, 7, 8, 11, 14] Pr: 2^{-22.367}  14 paths [0, 7, 8, 11, 14] [6, 10, 14] #elements: 4096 
+Sorting 33756 elements w.r.t. probability
+Storing 32768 differences
+Testing 7168/31403 [1, 2, 4, 6, 7, 8, 9, 13, 14] [0, 2, 8, 11, 15] Pr: 2^{-22.367}  14 paths [0, 2, 8, 11, 15] [6, 10, 14] #elements: 262144 
+Sorting 33612 elements w.r.t. probability
+Storing 32768 differences
+Testing 8192/31403 [2, 3, 4, 6, 8, 12, 13, 14] [0, 2, 8, 11, 15] Pr: 2^{-22.367}  14 paths [0, 2, 8, 11, 15] [6, 10, 14] #elements: 65536 
+Sorting 33888 elements w.r.t. probability
+Storing 32768 differences
+Testing 9216/31403 [2, 3, 4, 6, 8, 13, 14] [0, 2, 8, 15] Pr: 2^{-22.43}  16 paths [0, 2, 8, 15] [6, 10, 13, 14] #elements: 16384 
+Sorting 33136 elements w.r.t. probability
+Storing 32768 differences
+Testing 10240/31403 [0, 2, 4, 6, 8, 9, 14] [0, 8, 14] Pr: 2^{-22.43}  9 paths [0, 8, 14] [4, 6, 10, 14] #elements: 16384 
+Sorting 33760 elements w.r.t. probability
+Storing 32768 differences
+Testing 11264/31403 [0, 2, 4, 7, 8, 9, 13, 14] [0, 5, 8, 14] Pr: 2^{-22.565}  12 paths [0, 5, 8, 14] [4, 6, 10, 14] #elements: 65536 
+Sorting 34224 elements w.r.t. probability
+Storing 32768 differences
+Testing 12288/31403 [0, 1, 2, 6, 7, 9] [0, 5, 7, 12, 14] Pr: 2^{-22.701}  25 paths [0, 5, 7, 12, 14] [6, 13, 14] #elements: 4096 
+Sorting 33600 elements w.r.t. probability
+Storing 32768 differences
+Testing 13312/31403 [0, 1, 2, 4, 8, 14] [0, 5, 15] Pr: 2^{-22.776}  14 paths [0, 5, 15] [4, 6, 13, 14] #elements: 4096 
+Sorting 34608 elements w.r.t. probability
+Storing 32768 differences
+Testing 14336/31403 [0, 1, 2, 3, 4, 8, 9, 10, 14, 15] [0, 2, 8, 14, 15] Pr: 2^{-23.089}  10 paths [0, 2, 8, 14, 15] [0, 10, 14] #elements: 262144 
+Sorting 33996 elements w.r.t. probability
+Storing 32768 differences
+Testing 15360/31403 [0, 1, 2, 6, 8, 12, 13, 14] [0, 8, 11, 14, 15] Pr: 2^{-23.089}  10 paths [0, 8, 11, 14, 15] [0, 10, 14] #elements: 65536 
+Sorting 33796 elements w.r.t. probability
+Storing 32768 differences
+Testing 16384/31403 [0, 1, 2, 4, 8, 10, 14] [0, 2, 14, 15] Pr: 2^{-23.139}  9 paths [0, 2, 14, 15] [10, 14] #elements: 16384 
+Sorting 33744 elements w.r.t. probability
+Storing 32768 differences
+Sorting 34741 elements w.r.t. probability
+Storing 32768 differences
+Testing 17408/31403 [0, 2, 4, 6, 8, 9, 10, 13, 14] [0, 2, 8, 11, 14] Pr: 2^{-23.367}  12 paths [0, 2, 8, 11, 14] [6, 10, 14] #elements: 262144 
+Sorting 32832 elements w.r.t. probability
+Storing 32768 differences
+Testing 18432/31403 [0, 2, 6, 9, 12, 13, 14] [0, 6, 7, 8, 11, 15] Pr: 2^{-23.367}  18 paths [0, 6, 7, 8, 11, 15] [6, 10, 14] #elements: 16384 
+Sorting 32864 elements w.r.t. probability
+Storing 32768 differences
+Testing 19456/31403 [0, 1, 2, 4, 6, 8, 9, 10, 14] [0, 2, 6, 7, 8] Pr: 2^{-23.367}  12 paths [0, 2, 6, 7, 8] [6, 10, 14] #elements: 262144 
+Sorting 32800 elements w.r.t. probability
+Storing 32768 differences
+Testing 20480/31403 [0, 2, 6, 9, 13] [0, 6, 7, 8, 11] Pr: 2^{-23.367}  12 paths [0, 6, 7, 8, 11] [6, 10, 14] #elements: 1024 
+Sorting 32832 elements w.r.t. probability
+Storing 32768 differences
+Testing 21504/31403 [0, 2, 6, 7, 8, 13, 14] [0, 6, 7, 8, 14, 15] Pr: 2^{-23.43}  30 paths [0, 6, 7, 8, 14, 15] [6, 10, 13, 14] #elements: 16384 
+Sorting 34080 elements w.r.t. probability
+Storing 32768 differences
+Testing 22528/31403 [0, 2, 3, 4, 7, 14] [0, 2, 5, 8] Pr: 2^{-23.43}  15 paths [0, 2, 5, 8] [6, 10, 13, 14] #elements: 4096 
+Sorting 34360 elements w.r.t. probability
+Storing 32768 differences
+Testing 23552/31403 [0, 1, 2, 8, 14] [0, 7, 8, 11, 14] Pr: 2^{-23.43}  18 paths [0, 7, 8, 11, 14] [6, 10, 13, 14] #elements: 1024 
+Sorting 33720 elements w.r.t. probability
+Storing 32768 differences
+Testing 24576/31403 [2, 3, 4, 6, 8, 13, 14] [0, 2, 8, 14] Pr: 2^{-23.43}  15 paths [0, 2, 8, 14] [6, 10, 13, 14] #elements: 16384 
+Sorting 33956 elements w.r.t. probability
+Storing 32768 differences
+Testing 25600/31403 [0, 1, 2, 3, 4, 6, 7, 13, 14] [0, 2, 7, 8, 15] Pr: 2^{-23.43}  18 paths [0, 2, 7, 8, 15] [6, 10, 13, 14] #elements: 262144 
+Sorting 34160 elements w.r.t. probability
+Storing 32768 differences
+Testing 26624/31403 [2, 6, 7, 8, 9, 13, 14] [0, 5, 6, 8, 15] Pr: 2^{-23.43}  18 paths [0, 5, 6, 8, 15] [6, 10, 13, 14] #elements: 16384 
+Sorting 33936 elements w.r.t. probability
+Storing 32768 differences
+Testing 27648/31403 [2, 3, 6, 8, 9, 10, 14] [0, 2, 7, 8] Pr: 2^{-23.43}  10 paths [0, 2, 7, 8] [4, 6, 10, 14] #elements: 16384 
+Sorting 33024 elements w.r.t. probability
+Storing 32768 differences
+Testing 28672/31403 [0, 1, 2, 4, 6, 7, 13, 15] [0, 5, 8, 12, 14] Pr: 2^{-23.565}  16 paths [0, 5, 8, 12, 14] [4, 6, 10, 14] #elements: 65536 
+Sorting 33968 elements w.r.t. probability
+Storing 32768 differences
+Sorting 34360 elements w.r.t. probability
+Storing 32768 differences
+Sorting 28664 elements w.r.t. probability
+Storing 28664 differences
+1 [4] [2, 6, 14] Pr: 2^{-22.151}  24 paths [2, 6, 14] [0, 8]
+2 [4, 6, 7] [2, 6, 14] Pr: 2^{-22.2}  23 paths [2, 6, 14] [0, 8]
+3 [3, 4, 10, 14, 15] [2, 6, 14] Pr: 2^{-22.217}  22 paths [2, 6, 14] [0, 8]
+sqrt(Sum Pr^2): 2^{-18.147}
+-------------------------------------
+Round 9
+-------------------------------------
+Testing 1024/28664 [4, 8, 10, 11, 14, 15] [2, 9, 14] Pr: 2^{-24.054}  13 paths [2, 9, 14] [0, 8, 14] #elements: 4096 
+Sorting 13636 elements w.r.t. probability
+Storing 13636 differences
+Sorting 14724 elements w.r.t. probability
+Storing 14724 differences
+Testing 2048/28664 [3, 4, 5, 7, 10, 15] [2, 6, 13, 14] Pr: 2^{-24.67}  22 paths [2, 6, 13, 14] [0, 8, 15] #elements: 4096 
+Sorting 16372 elements w.r.t. probability
+Storing 16372 differences
+Testing 3072/28664 [0, 1, 2, 3, 4, 7, 8, 10, 12] [0, 2, 6] Pr: 2^{-25.593}  18 paths [0, 2, 6] [0, 8, 12] #elements: 262144 
+Sorting 17032 elements w.r.t. probability
+Storing 17032 differences
+Testing 4096/28664 [2, 4, 14] [1, 2, 6, 8, 14] Pr: 2^{-25.756}  22 paths [1, 2, 6, 8, 14] [0, 8] #elements: 64 
+Sorting 19724 elements w.r.t. probability
+Storing 19724 differences
+Testing 5120/28664 [1, 3, 4, 10, 11, 14, 15] [2, 6, 8, 9, 14] Pr: 2^{-25.907}  20 paths [2, 6, 8, 9, 14] [0, 8] #elements: 16384 
+Sorting 20276 elements w.r.t. probability
+Storing 20276 differences
+Testing 6144/28664 [0, 1, 3, 4, 6, 8, 9, 14] [2, 8, 15] Pr: 2^{-26.221}  10 paths [2, 8, 15] [0, 6, 8, 14] #elements: 65536 
+Sorting 20284 elements w.r.t. probability
+Storing 20284 differences
+Testing 7168/28664 [0, 1, 3, 4, 7, 9, 14, 15] [2, 6, 8, 14, 15] Pr: 2^{-26.462}  20 paths [2, 6, 8, 14, 15] [0, 7, 8] #elements: 65536 
+Sorting 20316 elements w.r.t. probability
+Storing 20316 differences
+Testing 8192/28664 [0, 3, 4, 5, 8, 9, 12, 14] [2, 6, 7, 13] Pr: 2^{-26.615}  14 paths [2, 6, 7, 13] [0, 12, 15] #elements: 65536 
+Sorting 20332 elements w.r.t. probability
+Storing 20332 differences
+Testing 9216/28664 [0, 4, 5, 6, 8, 11, 14] [2, 4, 6, 9] Pr: 2^{-26.631}  14 paths [2, 4, 6, 9] [0, 7, 12] #elements: 16384 
+Sorting 20332 elements w.r.t. probability
+Storing 20332 differences
+Testing 10240/28664 [0, 1, 4, 5, 6, 8, 11, 12] [2, 4, 6, 9] Pr: 2^{-26.631}  14 paths [2, 4, 6, 9] [0, 7, 12] #elements: 65536 
+Sorting 20332 elements w.r.t. probability
+Storing 20332 differences
+Testing 11264/28664 [1, 3, 4, 6, 7, 8, 9, 14, 15] [0, 1, 2, 6, 14] Pr: 2^{-26.756}  17 paths [0, 1, 2, 6, 14] [0, 8] #elements: 262144 
+Sorting 20396 elements w.r.t. probability
+Storing 20396 differences
+Testing 12288/28664 [0, 2, 3, 4, 6, 7, 8, 9, 10, 15] [0, 2, 6, 8, 14] Pr: 2^{-26.907}  12 paths [0, 2, 6, 8, 14] [0, 8, 14] #elements: 262144 
+Sorting 20480 elements w.r.t. probability
+Storing 20480 differences
+Testing 13312/28664 [2, 4, 8, 10, 14] [0, 2, 6, 8, 14] Pr: 2^{-26.907}  12 paths [0, 2, 6, 8, 14] [0, 8, 14] #elements: 1024 
+Sorting 20496 elements w.r.t. probability
+Storing 20496 differences
+Testing 14336/28664 [0, 1, 2, 3, 4, 6, 7, 8, 14] [0, 2, 14, 15] Pr: 2^{-27.025}  10 paths [0, 2, 14, 15] [0, 8, 14] #elements: 262144 
+Sorting 20496 elements w.r.t. probability
+Storing 20496 differences
+Testing 15360/28664 [0, 2, 4, 6, 7, 9, 11, 15] [0, 2, 6, 7, 9] Pr: 2^{-27.092}  22 paths [0, 2, 6, 7, 9] [0, 6, 8, 15] #elements: 65536 
+Sorting 20496 elements w.r.t. probability
+Storing 20496 differences
+Testing 16384/28664 [1, 2, 3, 4, 6, 7, 8, 10, 11, 14] [1, 2, 9, 14] Pr: 2^{-27.092}  16 paths [1, 2, 9, 14] [0, 7, 8, 14] #elements: 262144 
+Sorting 20512 elements w.r.t. probability
+Storing 20512 differences
+Sorting 20552 elements w.r.t. probability
+Storing 20552 differences
+Testing 17408/28664 [0, 1, 8, 12, 15] [6, 13, 15] Pr: 2^{-27.3}  7 paths [6, 13, 15] [12, 14] #elements: 1024 
+Sorting 20640 elements w.r.t. probability
+Storing 20640 differences
+Testing 18432/28664 [0, 1, 2, 3, 4, 6, 9, 10, 14] [0, 2, 7] Pr: 2^{-27.367}  15 paths [0, 2, 7] [0, 6, 8, 14, 15] #elements: 262144 
+Sorting 20640 elements w.r.t. probability
+Storing 20640 differences
+Testing 19456/28664 [1, 4, 9, 15] [1, 2, 6, 14, 15] Pr: 2^{-27.462}  12 paths [1, 2, 6, 14, 15] [0, 8, 14] #elements: 256 
+Sorting 20656 elements w.r.t. probability
+Storing 20656 differences
+Testing 20480/28664 [1, 4, 5, 7, 8, 11, 12, 14] [3, 6, 9, 15] Pr: 2^{-27.473}  13 paths [3, 6, 9, 15] [1, 12] #elements: 65536 
+Sorting 20688 elements w.r.t. probability
+Storing 20688 differences
+Testing 21504/28664 [0, 2, 4, 9, 10, 12, 15] [0, 2, 6, 7] Pr: 2^{-27.503}  13 paths [0, 2, 6, 7] [0, 12, 15] #elements: 16384 
+Sorting 20704 elements w.r.t. probability
+Storing 20704 differences
+Testing 22528/28664 [3, 4, 8, 9, 11, 12, 14] [1, 2, 6, 8, 9] Pr: 2^{-27.631}  16 paths [1, 2, 6, 8, 9] [0, 7, 12] #elements: 16384 
+Sorting 20720 elements w.r.t. probability
+Storing 20720 differences
+Testing 23552/28664 [1, 4, 7, 8, 10, 11, 12, 14] [1, 2, 6, 8, 9] Pr: 2^{-27.631}  16 paths [1, 2, 6, 8, 9] [0, 7, 12] #elements: 65536 
+Sorting 20720 elements w.r.t. probability
+Storing 20720 differences
+Testing 24576/28664 [0, 1, 4, 8, 11, 12, 14, 15] [1, 2, 6, 9, 13] Pr: 2^{-27.631}  16 paths [1, 2, 6, 9, 13] [0, 7, 12] #elements: 65536 
+Sorting 20720 elements w.r.t. probability
+Storing 20720 differences
+Testing 25600/28664 [1, 2, 3, 4, 7, 10, 11, 14, 15] [1, 2, 6, 8, 9, 14] Pr: 2^{-27.743}  16 paths [1, 2, 6, 8, 9, 14] [0, 8, 14] #elements: 262144 
+Sorting 20728 elements w.r.t. probability
+Storing 20728 differences
+Testing 26624/28664 [0, 3, 4, 6, 7, 9, 11, 15] [1, 2, 6, 8, 9, 14] Pr: 2^{-27.743}  16 paths [1, 2, 6, 8, 9, 14] [0, 8, 14] #elements: 65536 
+Sorting 20776 elements w.r.t. probability
+Storing 20776 differences
+Sorting 18968 elements w.r.t. probability
+Storing 18968 differences
+1 [2, 5, 14] [4] Pr: 2^{-24.151}  24 paths [4] [2, 6, 14]
+2 [2, 5, 12, 14] [4] Pr: 2^{-24.151}  24 paths [4] [2, 6, 14]
+3 [2, 14] [4] Pr: 2^{-24.151}  24 paths [4] [2, 6, 14]
+sqrt(Sum Pr^2): 2^{-21.879}
+-------------------------------------
+Round 10
+-------------------------------------
+Testing 1024/18968 [9, 12, 14, 15] [4, 7, 10] Pr: 2^{-27.903}  23 paths [4, 7, 10] [2, 6, 14] #elements: 256 
+Sorting 16468 elements w.r.t. probability
+Storing 16468 differences
+Sorting 19948 elements w.r.t. probability
+Storing 19948 differences
+Testing 2048/18968 [0, 2, 12, 13, 14, 15] [4, 7, 11, 14] Pr: 2^{-29.217}  33 paths [4, 7, 11, 14] [2, 6, 9, 14] #elements: 4096 
+Sorting 22032 elements w.r.t. probability
+Storing 22032 differences
+Testing 3072/18968 [0, 5, 6, 9, 11, 14] [4, 7, 10, 14] Pr: 2^{-29.217}  23 paths [4, 7, 10, 14] [2, 6, 14] #elements: 4096 
+Sorting 23776 elements w.r.t. probability
+Storing 23776 differences
+Testing 4096/18968 [2, 3, 6, 8, 14] [1, 7] Pr: 2^{-29.599}  8 paths [1, 7] [6, 14, 15] #elements: 1024 
+Sorting 26497 elements w.r.t. probability
+Storing 26497 differences
+Testing 5120/18968 [2, 8, 14] [4, 9, 10] Pr: 2^{-29.821}  22 paths [4, 9, 10] [2, 6, 8, 14] #elements: 64 
+Sorting 28985 elements w.r.t. probability
+Storing 28985 differences
+Testing 6144/18968 [7, 8, 9, 11, 12, 14] [4, 6, 7, 10] Pr: 2^{-30.217}  22 paths [4, 6, 7, 10] [2, 6, 14] #elements: 4096 
+Sorting 29041 elements w.r.t. probability
+Storing 29041 differences
+Testing 7168/18968 [0, 1, 2, 5, 9, 12, 14, 15] [4, 7, 10, 15] Pr: 2^{-30.217}  22 paths [4, 7, 10, 15] [2, 6, 14] #elements: 65536 
+Sorting 29101 elements w.r.t. probability
+Storing 29101 differences
+Testing 8192/18968 [5, 11, 14] [4, 10, 15] Pr: 2^{-30.217}  21 paths [4, 10, 15] [1, 2, 6, 14] #elements: 64 
+Sorting 29249 elements w.r.t. probability
+Storing 29249 differences
+Testing 9216/18968 [1, 2, 4, 8, 9, 11, 14] [3, 4, 7, 15] Pr: 2^{-30.217}  22 paths [3, 4, 7, 15] [2, 6, 14] #elements: 16384 
+Sorting 29325 elements w.r.t. probability
+Storing 29325 differences
+Testing 10240/18968 [5, 7, 8, 9, 11, 12, 14, 15] [4, 6, 7, 10] Pr: 2^{-30.217}  22 paths [4, 6, 7, 10] [2, 6, 14] #elements: 65536 
+Sorting 29429 elements w.r.t. probability
+Storing 29429 differences
+Testing 11264/18968 [2, 5, 7, 9, 11, 14] [4, 8, 9] Pr: 2^{-30.374}  23 paths [4, 8, 9] [2, 6, 7, 14] #elements: 4096 
+Sorting 29777 elements w.r.t. probability
+Storing 29777 differences
+Testing 12288/18968 [3, 9, 14] [1, 4, 7] Pr: 2^{-30.524}  17 paths [1, 4, 7] [2, 6, 14, 15] #elements: 64 
+Sorting 29925 elements w.r.t. probability
+Storing 29925 differences
+Testing 13312/18968 [1, 2, 8, 9, 12, 13, 14, 15] [4, 7, 15] Pr: 2^{-30.67}  22 paths [4, 7, 15] [2, 6, 13, 14] #elements: 65536 
+Sorting 30117 elements w.r.t. probability
+Storing 30117 differences
+Testing 14336/18968 [1, 2, 3, 5, 7, 8, 9, 13, 14] [4, 6, 11] Pr: 2^{-30.907}  21 paths [4, 6, 11] [1, 2, 6, 9, 14] #elements: 262144 
+Sorting 30133 elements w.r.t. probability
+Storing 30133 differences
+Testing 15360/18968 [2, 6, 7, 8, 9, 10, 14, 15] [4, 6, 8, 14] Pr: 2^{-31.054}  12 paths [4, 6, 8, 14] [2, 14] #elements: 65536 
+Sorting 30313 elements w.r.t. probability
+Storing 30313 differences
+Testing 16384/18968 [3, 4, 6, 8, 10, 15] [6, 8] Pr: 2^{-31.473}  13 paths [6, 8] [3, 4, 6, 15] #elements: 4096 
+Sorting 31214 elements w.r.t. probability
+Storing 31214 differences
+Sorting 31334 elements w.r.t. probability
+Storing 31334 differences
+Testing 17408/18968 [2, 10, 14, 15] [0, 6, 8, 14] Pr: 2^{-31.978}  7 paths [0, 6, 8, 14] [14] #elements: 256 
+Sorting 31370 elements w.r.t. probability
+Storing 31370 differences
+Sorting 26512 elements w.r.t. probability
+Storing 26512 differences
+1 [0, 3, 6] [2, 14] Pr: 2^{-27.276}  33 paths [2, 14] [4]
+2 [0, 6, 10, 15] [2, 14] Pr: 2^{-27.276}  33 paths [2, 14] [4]
+3 [0, 3, 10, 15] [2, 14] Pr: 2^{-27.276}  33 paths [2, 14] [4]
+sqrt(Sum Pr^2): 2^{-24.464}
+-------------------------------------
+Round 11
+-------------------------------------
+Testing 1024/26512 [3, 4, 9] [1, 14] Pr: 2^{-30.728}  25 paths [1, 14] [0, 4] #elements: 64 
+Sorting 6908 elements w.r.t. probability
+Storing 6908 differences
+Sorting 7212 elements w.r.t. probability
+Storing 7212 differences
+Testing 2048/26512 [0, 7, 10, 13] [2, 5, 8, 14] Pr: 2^{-32.237}  25 paths [2, 5, 8, 14] [4, 6] #elements: 256 
+Sorting 7484 elements w.r.t. probability
+Storing 7484 differences
+Testing 3072/26512 [0, 5, 7] [2, 4, 5, 14] Pr: 2^{-32.632}  25 paths [2, 4, 5, 14] [3, 4] #elements: 64 
+Sorting 7820 elements w.r.t. probability
+Storing 7820 differences
+Testing 4096/26512 [0, 1, 4, 5, 7, 11, 13, 14] [5, 13, 14] Pr: 2^{-33.217}  32 paths [5, 13, 14] [1, 4, 11] #elements: 65536 
+Sorting 7840 elements w.r.t. probability
+Storing 7840 differences
+Testing 5120/26512 [0, 6, 9, 13, 14] [2, 8, 12, 14] Pr: 2^{-33.237}  22 paths [2, 8, 12, 14] [4] #elements: 1024 
+Sorting 7865 elements w.r.t. probability
+Storing 7865 differences
+Testing 6144/26512 [0, 4, 5, 6, 15] [13] Pr: 2^{-33.43}  21 paths [13] [0, 4, 6] #elements: 1024 
+Sorting 7910 elements w.r.t. probability
+Storing 7910 differences
+Testing 7168/26512 [0, 2, 4, 6, 8, 10, 12, 13, 14, 15] [0, 11, 14] Pr: 2^{-33.632}  23 paths [0, 11, 14] [4, 10, 14] #elements: 262144 
+Sorting 7927 elements w.r.t. probability
+Storing 7927 differences
+Testing 8192/26512 [2, 4, 9, 15] [0, 7, 14] Pr: 2^{-33.821}  25 paths [0, 7, 14] [0, 4, 15] #elements: 256 
+Sorting 7927 elements w.r.t. probability
+Storing 7927 differences
+Testing 9216/26512 [1, 7, 9, 11] [2, 8, 9, 14, 15] Pr: 2^{-33.903}  26 paths [2, 8, 9, 14, 15] [4, 7] #elements: 256 
+Sorting 7943 elements w.r.t. probability
+Storing 7943 differences
+Testing 10240/26512 [0, 1, 4, 5, 7, 10, 11] [5, 13, 14] Pr: 2^{-34.217}  34 paths [5, 13, 14] [1, 4, 10, 11] #elements: 16384 
+Sorting 7947 elements w.r.t. probability
+Storing 7947 differences
+Testing 11264/26512 [0, 1, 2, 4, 6, 8, 10, 14, 15] [0, 14, 15] Pr: 2^{-34.217}  22 paths [0, 14, 15] [4, 10, 14] #elements: 262144 
+Sorting 7967 elements w.r.t. probability
+Storing 7967 differences
+Testing 12288/26512 [1, 4, 6, 10, 11] [5, 9] Pr: 2^{-34.217}  22 paths [5, 9] [4, 6, 7, 10] #elements: 1024 
+Sorting 7971 elements w.r.t. probability
+Storing 7971 differences
+Testing 13312/26512 [0, 1, 2, 5, 6, 8] [0, 4, 13, 14] Pr: 2^{-34.3}  5 paths [0, 4, 13, 14] [12, 14] #elements: 4096 
+Sorting 7976 elements w.r.t. probability
+Storing 7976 differences
+Testing 14336/26512 [1, 2, 4, 6, 8, 9, 10, 15] [0, 8] Pr: 2^{-34.396}  18 paths [0, 8] [0, 4, 6, 15] #elements: 65536 
+Sorting 7980 elements w.r.t. probability
+Storing 7980 differences
+Testing 15360/26512 [0, 1, 10, 11] [2, 5, 8, 9] Pr: 2^{-34.789}  26 paths [2, 5, 8, 9] [4, 6, 7] #elements: 256 
+Sorting 7988 elements w.r.t. probability
+Storing 7988 differences
+Testing 16384/26512 [1, 3, 6, 7, 11, 15] [2, 7, 8, 9] Pr: 2^{-34.789}  26 paths [2, 7, 8, 9] [4, 6, 7] #elements: 4096 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 17408/26512 [0, 7, 9, 11, 14, 15] [2, 8, 9, 12, 14] Pr: 2^{-34.903}  24 paths [2, 8, 9, 12, 14] [4, 7] #elements: 4096 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 18432/26512 [0, 2, 3, 4, 6, 7, 10, 14, 15] [0, 14, 15] Pr: 2^{-35.217}  23 paths [0, 14, 15] [3, 4, 10, 14] #elements: 262144 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 19456/26512 [0, 1, 2, 6, 8, 12, 14, 15] [0, 4, 6, 14] Pr: 2^{-35.3}  4 paths [0, 4, 6, 14] [12, 14] #elements: 65536 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 20480/26512 [0, 1, 2, 5, 6, 12, 14, 15] [0, 4, 14, 15] Pr: 2^{-35.3}  4 paths [0, 4, 14, 15] [12, 14] #elements: 65536 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 21504/26512 [1, 2, 4, 6, 8] [0, 2, 12] Pr: 2^{-35.8}  22 paths [0, 2, 12] [4, 6, 14] #elements: 1024 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 22528/26512 [3, 5, 12, 13, 14] [2, 4, 12] Pr: 2^{-35.8}  22 paths [2, 4, 12] [3, 4, 6] #elements: 1024 
+Sorting 7996 elements w.r.t. probability
+Storing 7996 differences
+Testing 23552/26512 [0, 1, 4, 7, 9, 11, 12, 13, 15] [8, 9, 11, 14] Pr: 2^{-35.903}  23 paths [8, 9, 11, 14] [4, 7, 10] #elements: 262144 
+Sorting 7997 elements w.r.t. probability
+Storing 7997 differences
+Testing 24576/26512 [0, 1, 3, 4, 6, 7, 10, 11, 13] [9, 11, 14, 15] Pr: 2^{-35.903}  23 paths [9, 11, 14, 15] [4, 7, 10] #elements: 262144 
+Sorting 7997 elements w.r.t. probability
+Storing 7997 differences
+Sorting 7765 elements w.r.t. probability
+Storing 7765 differences
+1 [14] [0] Pr: 2^{-28.965}  36 paths [0] [2, 14]
+2 [1, 14] [0] Pr: 2^{-28.965}  36 paths [0] [2, 14]
+3 [8, 14] [0] Pr: 2^{-28.965}  36 paths [0] [2, 14]
+sqrt(Sum Pr^2): 2^{-26.995}
+-------------------------------------
+Round 12
+-------------------------------------
+Testing 1024/7765 [5, 9, 12, 14] [0, 7, 10] Pr: 2^{-33.085}  39 paths [0, 7, 10] [2, 5, 14] #elements: 256 
+Sorting 1938 elements w.r.t. probability
+Storing 1938 differences
+Sorting 1974 elements w.r.t. probability
+Storing 1974 differences
+Testing 2048/7765 [0, 1, 6, 11, 14] [0, 10, 14] Pr: 2^{-34.62}  31 paths [0, 10, 14] [2, 12, 14] #elements: 1024 
+Sorting 1986 elements w.r.t. probability
+Storing 1986 differences
+Testing 3072/7765 [0, 1, 5, 11, 12, 14] [0, 3, 14] Pr: 2^{-35.307}  30 paths [0, 3, 14] [2, 12, 14] #elements: 4096 
+Sorting 1994 elements w.r.t. probability
+Storing 1994 differences
+Testing 4096/7765 [2, 6, 11, 12, 14] [0, 4, 9] Pr: 2^{-35.719}  27 paths [0, 4, 9] [8, 14] #elements: 1024 
+Sorting 2023 elements w.r.t. probability
+Storing 2023 differences
+Testing 5120/7765 [0, 1, 6, 7, 12, 14] [0, 4, 10, 15] Pr: 2^{-36.02}  24 paths [0, 4, 10, 15] [14] #elements: 4096 
+Sorting 2027 elements w.r.t. probability
+Storing 2027 differences
+Testing 6144/7765 [1, 4, 7, 14] [0, 2, 15] Pr: 2^{-36.497}  24 paths [0, 2, 15] [1, 2, 14] #elements: 256 
+Sorting 2027 elements w.r.t. probability
+Storing 2027 differences
+Testing 7168/7765 [2, 3, 5, 7, 8, 9, 13] [6, 11] Pr: 2^{-36.789}  26 paths [6, 11] [2, 5, 9] #elements: 16384 
+Sorting 2027 elements w.r.t. probability
+Storing 2027 differences
+Sorting 2027 elements w.r.t. probability
+Storing 2027 differences
+1 [15] [14] Pr: 2^{-30.223}  39 paths [14] [0]
+2 [6] [14] Pr: 2^{-30.223}  39 paths [14] [0]
+3 [6, 15] [14] Pr: 2^{-30.223}  39 paths [14] [0]
+sqrt(Sum Pr^2): 2^{-28.612}
+-------------------------------------
+Round 13
+-------------------------------------
+Testing 1024/2027 [6, 10, 11, 13, 15] [5, 9, 14] Pr: 2^{-36.128}  39 paths [5, 9, 14] [0, 7] #elements: 1024 
+Sorting 317 elements w.r.t. probability
+Storing 317 differences
+Sorting 318 elements w.r.t. probability
+Storing 318 differences
+Sorting 318 elements w.r.t. probability
+Storing 318 differences
+1 [14] [] Pr: 2^{-30.223}  39 paths [] [14]
+2 [0, 1, 14] [15] Pr: 2^{-32.223}  39 paths [15] [14]
+3 [1, 7, 14] [15] Pr: 2^{-32.223}  39 paths [15] [14]
+sqrt(Sum Pr^2): 2^{-29.817}
+-------------------------------------
+Round 14
+-------------------------------------
+Sorting 428 elements w.r.t. probability
+Storing 428 differences
+1 [0, 6, 15] [14] Pr: 2^{-32.223}  39 paths [14] []
+2 [0] [14] Pr: 2^{-32.223}  39 paths [14] []
+3 [0, 6] [14] Pr: 2^{-32.223}  39 paths [14] []
+sqrt(Sum Pr^2): 2^{-31.123}
+-------------------------------------
+Round 15
+-------------------------------------
+Sorting 352 elements w.r.t. probability
+Storing 352 differences
+1 [2, 14] [0] Pr: 2^{-34.223}  39 paths [0] [14]
+2 [1, 2, 14] [0] Pr: 2^{-34.223}  39 paths [0] [14]
+3 [2, 8, 14] [0] Pr: 2^{-34.223}  39 paths [0] [14]
+sqrt(Sum Pr^2): 2^{-32.846}
+-------------------------------------
+Round 15
+-------------------------------------
+Sorting 4 elements w.r.t. probability
+Storing 4 differences
+1 [6] [7, 8, 14] Pr: 2^{-2} [] [6]
+2 [6] [8, 14] Pr: 2^{-2} [] [6]
+3 [6] [7, 8] Pr: 2^{-2} [] [6]
+sqrt(Sum Pr^2): 2^{-1}
+-------------------------------------
+Round 14
+-------------------------------------
+Sorting 68 elements w.r.t. probability
+Storing 68 differences
+1 [8] [0, 6, 9, 10] Pr: 2^{-4} [6] [8]
+2 [8] [6, 9, 10] Pr: 2^{-4} [6] [8]
+3 [8] [0, 6, 10] Pr: 2^{-4} [6] [8]
+sqrt(Sum Pr^2): 2^{-2.65}
+-------------------------------------
+Round 13
+-------------------------------------
+Sorting 532 elements w.r.t. probability
+Storing 532 differences
+1 [6, 10] [11, 12] Pr: 2^{-7.678}  2 paths [8] [6, 10]
+2 [6, 10] [11, 12, 14] Pr: 2^{-7.678}  2 paths [8] [6, 10]
+3 [6, 10] [2, 11, 12] Pr: 2^{-7.678}  2 paths [8] [6, 10]
+sqrt(Sum Pr^2): 2^{-5.23}
+-------------------------------------
+Round 12
+-------------------------------------
+Testing 128/532 [6, 9, 10] [7, 12, 14] Pr: 2^{-9.678}  2 paths [8] [6, 9, 10] #elements: 64
+Testing 256/532 [6, 10, 15] [1, 2, 7, 12, 14] Pr: 2^{-11}  2 paths [8, 14] [6, 10, 15] #elements: 1024
+Testing 384/532 [0, 6, 10, 15] [0, 1, 7, 8, 12, 14] Pr: 2^{-13}  2 paths [8, 14] [0, 6, 10, 15] #elements: 4096
+Testing 512/532 [0, 6, 10, 15] [0, 2, 7, 8, 11, 12] Pr: 2^{-13}  2 paths [8, 14] [0, 6, 10, 15] #elements: 4096
+Sorting 1852 elements w.r.t. probability
+Storing 1024 differences
+1 [12] [4, 6, 10, 13, 14] Pr: 2^{-9.678}  2 paths [6, 10] [12]
+2 [12] [6, 10, 13, 14] Pr: 2^{-9.678}  2 paths [6, 10] [12]
+3 [12] [4, 6, 10, 14] Pr: 2^{-9.678}  2 paths [6, 10] [12]
+sqrt(Sum Pr^2): 2^{-7.961}
+-------------------------------------
+Round 11
+-------------------------------------
+Testing 128/1024 [2, 7, 11, 12] [4, 6, 9, 10, 14, 15] Pr: 2^{-14.678}  3 paths [6, 10] [2, 7, 11, 12] #elements: 4096
+Testing 256/1024 [11, 12, 14] [0, 3, 4, 10, 12, 13, 14] Pr: 2^{-13.678}  2 paths [6, 10] [11, 12, 14] #elements: 16384
+Testing 384/1024 [2, 12, 14] [0, 4, 14] Pr: 2^{-13.678}  2 paths [6, 10] [2, 12, 14] #elements: 64
+Testing 512/1024 [2, 11, 12] [3, 6, 14] Pr: 2^{-12.678}  3 paths [6, 10] [2, 11, 12] #elements: 64
+Testing 640/1024 [2, 12, 14] [0, 4, 13, 14, 15] Pr: 2^{-13.678}  2 paths [6, 10] [2, 12, 14] #elements: 1024
+Testing 768/1024 [7, 11, 12] [3, 6, 9, 10, 13, 14] Pr: 2^{-13.678}  2 paths [6, 10] [7, 11, 12] #elements: 4096
+Testing 896/1024 [2, 7, 11, 12] [6, 8, 9, 12, 13, 14, 15] Pr: 2^{-14.678}  3 paths [6, 10] [2, 7, 11, 12] #elements: 16384
+Testing 1024/1024 [2, 7, 11, 12] [4, 6, 8, 9, 10, 12, 13, 14, 15] Pr: 2^{-14.678}  3 paths [6, 10] [2, 7, 11, 12] #elements: 262144
+Sorting 880 elements w.r.t. probability
+Storing 880 differences
+1 [6, 10, 14] [0, 7, 8] Pr: 2^{-15.093}  4 paths [12] [6, 10, 14]
+2 [6, 10, 14] [0, 2, 7, 8] Pr: 2^{-15.093}  4 paths [12] [6, 10, 14]
+3 [6, 10, 14] [0, 6, 8, 14] Pr: 2^{-15.093}  4 paths [12] [6, 10, 14]
+sqrt(Sum Pr^2): 2^{-11.725}
+-------------------------------------
+Round 10
+-------------------------------------
+Testing 128/880 [6, 10, 13, 14] [0, 6, 8, 11, 14] Pr: 2^{-16.678}  3 paths [12] [6, 10, 13, 14] #elements: 1024
+Testing 256/880 [4, 6, 10, 13, 14] [0, 2, 6, 8, 11, 14] Pr: 2^{-17.678}  5 paths [12] [4, 6, 10, 13, 14] #elements: 4096
+Testing 384/880 [6, 10, 13, 14] [0, 6, 8, 14] Pr: 2^{-16.678}  3 paths [12] [6, 10, 13, 14] #elements: 256
+Testing 512/880 [4, 6, 10, 13, 14] [0, 6, 7, 8, 14, 15] Pr: 2^{-17.678}  5 paths [12] [4, 6, 10, 13, 14] #elements: 4096
+Testing 640/880 [4, 6, 10, 13, 14] [0, 2, 5, 6, 7, 8, 11, 12, 15] Pr: 2^{-17.678}  5 paths [12] [4, 6, 10, 13, 14] #elements: 262144
+Testing 768/880 [4, 6, 10, 13, 14] [0, 2, 5, 7, 8, 12, 14] Pr: 2^{-17.678}  5 paths [12] [4, 6, 10, 13, 14] #elements: 16384
+Sorting 9073 elements w.r.t. probability
+Storing 1024 differences
+1 [0, 8] [0, 1, 2, 6, 8, 9, 14] Pr: 2^{-19.093}  4 paths [6, 10, 14] [0, 8]
+2 [0, 8] [1, 2, 6, 8, 9, 14] Pr: 2^{-19.093}  4 paths [6, 10, 14] [0, 8]
+3 [0, 8] [0, 2, 6, 8, 9, 14] Pr: 2^{-19.093}  4 paths [6, 10, 14] [0, 8]
+sqrt(Sum Pr^2): 2^{-16.127}
+-------------------------------------
+Round 9
+-------------------------------------
+Testing 128/1024 [0, 2, 7, 8] [2, 4, 6, 8, 14, 15] Pr: 2^{-22.093}  5 paths [6, 10, 14] [0, 2, 7, 8] #elements: 4096
+Testing 256/1024 [0, 6, 8] [2, 6, 7, 8] Pr: 2^{-21.093}  4 paths [6, 10, 14] [0, 6, 8] #elements: 256
+Testing 384/1024 [0, 6, 8, 15] [1, 2, 6] Pr: 2^{-21.093}  7 paths [6, 10, 14] [0, 6, 8, 15] #elements: 64
+Testing 512/1024 [0, 6, 8, 15] [0, 1, 2, 6, 7, 8, 9, 13, 14] Pr: 2^{-22.678}  6 paths [6, 10, 13, 14] [0, 6, 8, 15] #elements: 262144
+Testing 640/1024 [0, 6, 8, 15] [0, 1, 2, 6, 7, 13, 14] Pr: 2^{-22.678}  6 paths [6, 10, 13, 14] [0, 6, 8, 15] #elements: 16384
+Testing 768/1024 [0, 6, 8, 14] [0, 1, 2, 6, 9, 15] Pr: 2^{-23.093}  4 paths [6, 10, 14] [0, 6, 8, 14] #elements: 4096
+Testing 896/1024 [0, 2, 7, 8, 14] [0, 2, 4, 6, 8, 10, 14, 15] Pr: 2^{-23.093}  7 paths [6, 10, 14] [0, 2, 7, 8, 14] #elements: 65536
+Testing 1024/1024 [0, 2, 7, 8, 14] [1, 2, 4, 8, 9, 14] Pr: 2^{-23.093}  7 paths [6, 10, 14] [0, 2, 7, 8, 14] #elements: 4096
+Sorting 80384 elements w.r.t. probability
+Storing 1024 differences
+1 [2, 6, 14] [3, 4, 6, 7, 10] Pr: 2^{-23.923}  7 paths [0, 8] [2, 6, 14]
+2 [2, 6, 14] [4, 6, 7, 10] Pr: 2^{-23.923}  7 paths [0, 8] [2, 6, 14]
+3 [2, 6, 14] [4, 7, 10] Pr: 2^{-23.923}  7 paths [0, 8] [2, 6, 14]
+sqrt(Sum Pr^2): 2^{-20.323}
+-------------------------------------
+Round 8
+-------------------------------------
+Testing 128/1024 [2, 6, 14, 15] [0, 1, 3, 4, 10] Pr: 2^{-26.093}  10 paths [0, 7, 8] [2, 6, 14, 15] #elements: 1024
+Testing 256/1024 [1, 2, 6, 14] [3, 4, 7, 9, 14, 15] Pr: 2^{-25.923}  7 paths [0, 8] [1, 2, 6, 14] #elements: 4096
+Testing 384/1024 [2, 6, 8, 14] [3, 4, 14] Pr: 2^{-25.923}  7 paths [0, 8] [2, 6, 8, 14] #elements: 64
+Testing 512/1024 [1, 2, 6, 14] [3, 4, 6, 7, 14, 15] Pr: 2^{-25.923}  7 paths [0, 8] [1, 2, 6, 14] #elements: 4096
+Testing 640/1024 [2, 6, 8, 14] [0, 3, 4, 10, 15] Pr: 2^{-25.923}  7 paths [0, 8] [2, 6, 8, 14] #elements: 1024
+Testing 768/1024 [0, 2, 6, 14] [1, 2, 4, 8, 10, 14, 15] Pr: 2^{-25.923}  7 paths [0, 8] [0, 2, 6, 14] #elements: 16384
+Testing 896/1024 [2, 6, 8, 14] [0, 3, 4, 7, 9, 10, 14] Pr: 2^{-25.923}  7 paths [0, 8] [2, 6, 8, 14] #elements: 16384
+Testing 1024/1024 [2, 6, 8, 14] [0, 3, 4, 7, 10, 14] Pr: 2^{-25.923}  7 paths [0, 8] [2, 6, 8, 14] #elements: 4096
+Sorting 31572 elements w.r.t. probability
+Storing 1024 differences
+1 [4] [2, 12, 14] Pr: 2^{-25.923}  7 paths [2, 6, 14] [4]
+2 [4] [2, 5, 12, 14] Pr: 2^{-25.923}  7 paths [2, 6, 14] [4]
+3 [4] [2, 5, 14] Pr: 2^{-25.923}  7 paths [2, 6, 14] [4]
+sqrt(Sum Pr^2): 2^{-23.96}
+-------------------------------------
+Round 7
+-------------------------------------
+Testing 128/1024 [3, 4, 10] [2, 4, 5, 11, 14] Pr: 2^{-28.923}  8 paths [2, 6, 14] [3, 4, 10] #elements: 1024
+Testing 256/1024 [3, 4] [2, 5, 12, 14] Pr: 2^{-27.923}  7 paths [2, 6, 14] [3, 4] #elements: 256
+Testing 384/1024 [4, 7, 10] [8, 9, 11, 14] Pr: 2^{-29.923}  7 paths [2, 6, 14] [4, 7, 10] #elements: 256
+Testing 512/1024 [4, 6, 14] [0, 2, 5, 7, 8] Pr: 2^{-29.923}  7 paths [2, 6, 14] [4, 6, 14] #elements: 1024
+Testing 640/1024 [3, 4, 14] [0, 2, 4, 14] Pr: 2^{-29.923}  7 paths [2, 6, 14] [3, 4, 14] #elements: 256
+Testing 768/1024 [4, 7, 10] [2, 5, 9, 11, 12, 14, 15] Pr: 2^{-29.923}  7 paths [2, 6, 14] [4, 7, 10] #elements: 16384
+Testing 896/1024 [4, 6, 7] [2, 7, 9, 12, 14, 15] Pr: 2^{-29.923}  7 paths [2, 6, 14] [4, 6, 7] #elements: 4096
+Testing 1024/1024 [3, 4, 14] [0, 2, 4, 11, 14] Pr: 2^{-29.923}  7 paths [2, 6, 14] [3, 4, 14] #elements: 1024
+Sorting 28207 elements w.r.t. probability
+Storing 1024 differences
+1 [2, 14] [0, 3, 6, 10] Pr: 2^{-29.223}  10 paths [4] [2, 14]
+2 [2, 14] [0, 6, 10] Pr: 2^{-29.223}  10 paths [4] [2, 14]
+3 [2, 14] [0, 10] Pr: 2^{-29.223}  10 paths [4] [2, 14]
+sqrt(Sum Pr^2): 2^{-26.607}
+-------------------------------------
+Round 6
+-------------------------------------
+Testing 128/1024 [2, 5, 11, 12, 14] [0, 4, 7, 10, 14, 15] Pr: 2^{-33.923}  22 paths [3, 4] [2, 5, 11, 12, 14] #elements: 4096
+Testing 256/1024 [2, 7, 8] [0, 3, 6, 8, 9, 10, 15] Pr: 2^{-33.923}  7 paths [4, 6] [2, 7, 8] #elements: 16384
+Testing 384/1024 [2, 5, 12, 14] [0, 7, 13, 14, 15] Pr: 2^{-31.338}  18 paths [4] [2, 5, 12, 14] #elements: 1024
+Testing 512/1024 [2, 5, 12, 14] [0, 7, 10, 14, 15] Pr: 2^{-31.338}  18 paths [4] [2, 5, 12, 14] #elements: 1024
+Testing 640/1024 [2, 5, 11, 12, 14] [0, 6, 7, 12, 13, 14] Pr: 2^{-33.923}  22 paths [3, 4] [2, 5, 11, 12, 14] #elements: 4096
+Testing 768/1024 [5, 11, 12, 14] [0, 6, 7, 10, 13, 14, 15] Pr: 2^{-33.923}  10 paths [4, 10] [5, 11, 12, 14] #elements: 16384
+Testing 896/1024 [2, 5, 11, 12, 14] [0, 3, 4, 7, 10, 12, 13, 14, 15] Pr: 2^{-33.923}  22 paths [3, 4] [2, 5, 11, 12, 14] #elements: 262144
+Testing 1024/1024 [2, 5, 11, 12, 14] [0, 7, 13, 14] Pr: 2^{-33.923}  22 paths [3, 4] [2, 5, 11, 12, 14] #elements: 256
+Sorting 35669 elements w.r.t. probability
+Storing 1024 differences
+1 [0] [8, 14] Pr: 2^{-31.223}  10 paths [2, 14] [0]
+2 [0] [1, 8, 14] Pr: 2^{-31.223}  10 paths [2, 14] [0]
+3 [0] [1, 14] Pr: 2^{-31.223}  10 paths [2, 14] [0]
+sqrt(Sum Pr^2): 2^{-29.415}
+-------------------------------------
+Round 5
+-------------------------------------
+Testing 128/1024 [0, 6, 10] [2, 8, 12] Pr: 2^{-35.016}  11 paths [2, 14] [0, 6, 10] #elements: 64
+Testing 256/1024 [0, 10, 15] [1, 2, 7, 12, 14] Pr: 2^{-35.223}  10 paths [2, 14] [0, 10, 15] #elements: 1024
+Testing 384/1024 [0, 6, 13] [1, 11, 14, 15] Pr: 2^{-36.923}  11 paths [2, 11, 14] [0, 6, 13] #elements: 256
+Testing 512/1024 [0, 10, 15] [1, 2, 7, 8, 11, 12, 14] Pr: 2^{-35.223}  10 paths [2, 14] [0, 10, 15] #elements: 16384
+Testing 640/1024 [0, 6, 13] [1, 5, 7, 11, 15] Pr: 2^{-36.923}  11 paths [2, 11, 14] [0, 6, 13] #elements: 1024
+Testing 768/1024 [0, 3, 15] [1, 5, 7, 14] Pr: 2^{-35.223}  10 paths [2, 14] [0, 3, 15] #elements: 256
+Testing 896/1024 [0, 3, 7, 14] [0, 1, 4, 9, 12, 14] Pr: 2^{-37.338}  21 paths [2, 5, 12, 14] [0, 3, 7, 14] #elements: 4096
+Testing 1024/1024 [0, 13] [5, 8, 11, 15] Pr: 2^{-35.923}  10 paths [2, 11, 14] [0, 13] #elements: 256
+Sorting 1143 elements w.r.t. probability
+Storing 1024 differences
+1 [14] [15] Pr: 2^{-32.489}  13 paths [0] [14]
+2 [14] [6, 15] Pr: 2^{-32.489}  13 paths [0] [14]
+3 [14] [] Pr: 2^{-32.489}  13 paths [0] [14]
+sqrt(Sum Pr^2): 2^{-30.962}
+-------------------------------------
+Round 4
+-------------------------------------
+Testing 128/1024 [1, 7] [0, 2, 3, 6, 15] Pr: 2^{-37.016}  11 paths [0, 6] [1, 7] #elements: 1024
+Testing 256/1024 [8, 14] [0, 10] Pr: 2^{-34.489}  13 paths [0] [8, 14] #elements: 16
+Testing 384/1024 [5, 11, 14] [3, 6, 7, 13] Pr: 2^{-38.223}  11 paths [0, 3] [5, 11, 14] #elements: 256
+Testing 512/1024 [2, 12, 14] [4, 6, 14, 15] Pr: 2^{-39.223}  10 paths [0, 10] [2, 12, 14] #elements: 256
+Testing 640/1024 [0, 8, 14] [1, 2, 10] Pr: 2^{-38.638}  11 paths [0, 15] [0, 8, 14] #elements: 64
+Testing 768/1024 [1, 7, 8, 14] [0, 3, 6, 9, 10] Pr: 2^{-39.016}  14 paths [0, 6] [1, 7, 8, 14] #elements: 1024
+Testing 896/1024 [2, 7, 14] [0, 4, 9, 10] Pr: 2^{-38.923}  8 paths [6] [2, 7, 14] #elements: 256
+Testing 1024/1024 [11, 12, 14] [3, 10, 12, 14, 15] Pr: 2^{-39.223}  10 paths [0, 10] [11, 12, 14] #elements: 1024
+Sorting 5047 elements w.r.t. probability
+Storing 1024 differences
+1 [] [14] Pr: 2^{-32.489}  13 paths [14] []
+2 [15] [1, 7, 14] Pr: 2^{-34.489}  13 paths [14] [15]
+3 [15] [0, 1, 7, 14] Pr: 2^{-34.489}  13 paths [14] [15]
+sqrt(Sum Pr^2): 2^{-32.073}
+-------------------------------------
+Round 3
+-------------------------------------
+Testing 128/1024 [6, 9, 10] [1, 2, 7, 10, 11, 12, 14] Pr: 2^{-39.728}  14 paths [8, 14] [6, 9, 10] #elements: 16384
+Testing 256/1024 [2, 3, 9] [3, 5, 10, 11, 14] Pr: 2^{-39.489}  14 paths [1, 14] [2, 3, 9] #elements: 1024
+Testing 384/1024 [2, 9] [0, 3, 4, 7, 11, 14] Pr: 2^{-39.638}  18 paths [0, 7, 14] [2, 9] #elements: 4096
+Testing 512/1024 [0, 6, 9] [1, 2, 7, 11, 14] Pr: 2^{-40.016}  12 paths [7] [0, 6, 9] #elements: 1024
+Testing 640/1024 [6, 9, 10] [2, 7, 10, 12] Pr: 2^{-39.728}  14 paths [8, 14] [6, 9, 10] #elements: 256
+Testing 768/1024 [3, 9] [1, 5, 10, 14] Pr: 2^{-38.489}  13 paths [1, 14] [3, 9] #elements: 256
+Testing 896/1024 [9, 10, 15] [0, 1, 7, 8, 12, 14] Pr: 2^{-40.226}  14 paths [8, 14] [9, 10, 15] #elements: 4096
+Testing 1024/1024 [2, 3, 6] [1, 4, 5, 8, 11] Pr: 2^{-40.226}  17 paths [1, 7, 14] [2, 3, 6] #elements: 1024
+Sorting 9184 elements w.r.t. probability
+Storing 1024 differences
+1 [14] [0, 15] Pr: 2^{-34.489}  13 paths [] [14]
+2 [14] [0, 6, 15] Pr: 2^{-34.489}  13 paths [] [14]
+3 [14] [0] Pr: 2^{-34.489}  13 paths [] [14]
+sqrt(Sum Pr^2): 2^{-33.385}
+-------------------------------------
+Round 2
+-------------------------------------
+Testing 128/1024 [2, 8, 14] [4, 15] Pr: 2^{-43.016}  11 paths [0, 6] [2, 8, 14] #elements: 16
+Testing 256/1024 [1, 8, 14] [0, 3, 10, 15] Pr: 2^{-40.489}  15 paths [6, 15] [1, 8, 14] #elements: 256
+Testing 384/1024 [5, 7, 14] [0, 3, 7, 8, 9, 15] Pr: 2^{-42.226}  17 paths [3, 15] [5, 7, 14] #elements: 4096
+Testing 512/1024 [0, 1, 14] [0, 3, 8, 15] Pr: 2^{-40.489}  13 paths [15] [0, 1, 14] #elements: 256
+Testing 640/1024 [1, 2] [0, 2, 4, 6, 9, 10] Pr: 2^{-41.016}  11 paths [0, 6] [1, 2] #elements: 4096
+Testing 768/1024 [1, 2, 8] [2, 3, 4, 6] Pr: 2^{-42.016}  12 paths [0, 6] [1, 2, 8] #elements: 256
+Testing 896/1024 [2, 7] [0, 4, 6, 9, 15] Pr: 2^{-41.016}  11 paths [0, 6] [2, 7] #elements: 1024
+Testing 1024/1024 [0, 1, 14] [0, 3] Pr: 2^{-40.489}  13 paths [15] [0, 1, 14] #elements: 16
+Sorting 3124 elements w.r.t. probability
+Storing 1024 differences
+1 [0] [1, 2, 8, 14] Pr: 2^{-36.489}  13 paths [14] [0]
+2 [0] [2, 8, 14] Pr: 2^{-36.489}  13 paths [14] [0]
+3 [0] [2, 14] Pr: 2^{-36.489}  13 paths [14] [0]
+sqrt(Sum Pr^2): 2^{-35.108}
+-------------------------------------
+Round 1
+-------------------------------------
+Testing 128/1024 [0, 6, 10] [1, 8, 12] Pr: 2^{-41.904}  15 paths [8] [0, 6, 10] #elements: 64
+Testing 256/1024 [0, 6, 10] [2, 8, 11, 12, 14] Pr: 2^{-41.904}  15 paths [8] [0, 6, 10] #elements: 1024
+Testing 384/1024 [0, 9, 10] [1, 11, 12, 14] Pr: 2^{-43.489}  14 paths [8, 14] [0, 9, 10] #elements: 256
+Testing 512/1024 [0, 10, 15] [2, 12, 14] Pr: 2^{-44.489}  13 paths [8, 14] [0, 10, 15] #elements: 64
+Testing 640/1024 [0, 3, 9] [1, 2, 4, 5, 11, 14] Pr: 2^{-43.489}  14 paths [1, 14] [0, 3, 9] #elements: 4096
+Testing 768/1024 [9, 10, 15] [1, 7, 8, 12, 14] Pr: 2^{-44.489}  13 paths [8, 14] [9, 10, 15] #elements: 1024
+Testing 896/1024 [0, 3, 6] [2, 4, 5, 7] Pr: 2^{-44.489}  13 paths [1, 14] [0, 3, 6] #elements: 256
+Testing 1024/1024 [0, 6, 10, 15] [1, 11, 12] Pr: 2^{-44.489}  16 paths [8, 14] [0, 6, 10, 15] #elements: 64
+Sorting 3159 elements w.r.t. probability
+Storing 1024 differences
+1 [2, 14] [4, 10] Pr: 2^{-39.788}  16 paths [0] [2, 14]
+2 [2, 14] [3, 4, 10] Pr: 2^{-39.788}  16 paths [0] [2, 14]
+3 [2, 14] [4, 6, 10] Pr: 2^{-39.788}  16 paths [0] [2, 14]
+sqrt(Sum Pr^2): 2^{-37.306}
