@@ -22,8 +22,8 @@ make
 ./main -w <16|24|32> -n <num_rounds> -l [Delta L_2] -r [Delta R_2]");
 ```
 where 
--w is the word size (16 for SIMON-32)
--n is the number of rounds
--l is the left part of the start difference
--r is the right part of the start difference
+- w is the word size (16 for SIMON-32)
+- n is the number of rounds
+- l is the left part of the start difference
+- r is the right part of the start difference
 
