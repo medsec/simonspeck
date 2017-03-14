@@ -301,6 +301,8 @@ static void parse_args(experiment_ctx_t* ctx,
         print_usage(argv);
     }
 
+    char** endptr = NULL;
+
     while ((opt = getopt(argc, argv, "i:k:o:p:s:")) != -1) {
         switch (opt) {
             case 'i': 
@@ -310,13 +312,13 @@ static void parse_args(experiment_ctx_t* ctx,
                 hex_string_to_bytes(optarg, ctx->delta_out);
                 break;
             case 'k': 
-                ctx->num_keys = atoi(optarg);
+                ctx->num_keys = strtol(optarg, endptr, 10);
                 break;
             case 's': 
-                ctx->num_rounds = (size_t)(atoi(optarg));
+                ctx->num_rounds = (size_t)(strtol(optarg, endptr, 10));
                 break;
             case 'p': 
-                ctx->num_pairs_per_key = (size_t)(atoi(optarg));
+                ctx->num_pairs_per_key = (size_t)(strtol(optarg, endptr, 10));
                 break;
             default:
                 print_usage(argv);

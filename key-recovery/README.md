@@ -134,7 +134,10 @@ differential then.
 
 ## Dependencies
 - make
-- clang, can be changed to the C compiler of your choice
+- clang (can be changed to the C compiler of your choice)
+
+Assumes Linux/Unix platforms (uses /dev/urandom). On Windows etc., 
+replace the calls to /dev/urandom by CryptGenRandom or similar.
 
 ## License
 Author: Eik List 2017.
