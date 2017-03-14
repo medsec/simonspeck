@@ -29,13 +29,14 @@ Delta_in to some output difference Delta_out with high probability. Note:
   hold simply for the plaintexts.
 
 ## Example Differential Trail
-Round  L        R
-0     ( 00002400  *80000480*) (right part of Delta_in)
-1     (*00002400*  00000004 )
-2     ( 00000020   00000000 )
-3     ( 20000000   20000000 )
-4     (*20200000* *20200001*) (Delta_out)
-5     ( 20002001   21002008 )
+| Round | L          | R          |
+|-------|:----------:|:----------:|
+|0      |  00002400  | *80000480* | (right part of Delta_in)
+|1      | *00002400* |  00000004  | (left  part of Delta_in)
+|2      |  00000020  |  00000000  |
+|3      |  20000000  |  20000000  |
+|4      | *20200000* | *20200001* | (left and right parts of Delta_out)
+|5      |  20002001  |  21002008  |
 
 A python script rotate_differences.py to rotate difference is provided in the
 scripts folder.
