@@ -1,6 +1,3 @@
-# export ASAN_SYMBOLIZER_PATH=/usr/bin/llvm-symbolizer-3.5
-# export ASAN_OPTIONS=symbolize=1
-
 CC = clang
 CCFLAGS = -W -Wall -Wextra -std=c11 -march=native -O3
 OBJECTS = *.o

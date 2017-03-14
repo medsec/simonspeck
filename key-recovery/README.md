@@ -124,9 +124,10 @@ Note that the script does NOT always identify all subkey bits correctly.
 Instead, the success probability depends largely on the used differential the
 used key and the number of pairs. For instance, the run above recognized
 
-10101010 00001111 00110110 11101111 as key, where the correct key was
-00101010 00001111 00100100 10100110.
-
+```
+10101010 00001111 00110110 11101111 as key, but 
+00101010 00001111 00100100 10100110 was correct.
+```
 That is, 6 bits were incorrectly recognized. In the output, you can recognize
 these positions where there are no or an equal wrong number of correct pairs for
 those bits (0, 0) or (128, 128). One can repeat the run with another
