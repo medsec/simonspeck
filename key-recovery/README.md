@@ -8,8 +8,7 @@ size.
 
 Readers who are not familiar with differential cryptanalysis can read for a 
 good introduction, e.g.,
-[A Tutorial on Linear and Differential Cryptanalysis]
-(https://www.engr.mun.ca/~howard/PAPERS/ldc_tutorial.pdf)
+[A Tutorial on Linear and Differential Cryptanalysis](https://www.engr.mun.ca/~howard/PAPERS/ldc_tutorial.pdf)
 
 This program tries do recover the last-round subkey using a differential
 analysis. We always assume XOR differences.
